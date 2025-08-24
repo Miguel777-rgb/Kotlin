@@ -17,6 +17,7 @@ fun pipati() {
         3 -> println("Tijera")
     }
     if (opcion == pcplay) println("Empate!")
-    else if (pcplay == opcion + 1) println("Perdiste!")
+    //El orden de las opciones tiene un patrón. Porque el siguiente a la opción es su counter
+    else if (pcplay == (opcion + 1) % 3) println("Perdiste!")
     else println("Ganaste!")
 }
