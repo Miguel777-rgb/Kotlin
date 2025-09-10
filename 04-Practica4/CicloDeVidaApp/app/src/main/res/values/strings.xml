@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CicloDeVidaApp</string>
+    <string name="contador_text">Contador: %1$d</string>
+    <string name="contador_inicial">Contador: 0</string>
+    <string name="btn_aumentar">Aumentar contador</string>
+</resources>
